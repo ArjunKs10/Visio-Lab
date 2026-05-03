@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D2B8448526413C88D4E1BC /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EB5AB85AB44DC972BF120 /* AppFonts.swift */; };
+		0919057C1FE5469EB7E7B902 /* ProjectileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2C53690E2B474790B66FC0 /* ProjectileView.swift */; };
+		0B7F3B9519694EE286A727FC /* WaveCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30AEE48AB1D490995657C60 /* WaveCanvasView.swift */; };
+		14D0B2B8191148C4AF925CF4 /* ProjectileCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB929B15BC94A9481A8D278 /* ProjectileCanvasView.swift */; };
+		181E67E02FA745F500DD5ADE /* LessonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67DB2FA745F500DD5ADE /* LessonDetailView.swift */; };
+		181E67E12FA745F500DD5ADE /* FormulaBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67D52FA745F500DD5ADE /* FormulaBlock.swift */; };
+		181E67E22FA745F500DD5ADE /* TopicID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67D82FA745F500DD5ADE /* TopicID.swift */; };
+		181E67E32FA745F500DD5ADE /* LessonsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67DD2FA745F500DD5ADE /* LessonsHomeView.swift */; };
+		181E67E42FA745F500DD5ADE /* LessonSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67D72FA745F500DD5ADE /* LessonSection.swift */; };
+		181E67E52FA745F500DD5ADE /* LessonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67DA2FA745F500DD5ADE /* LessonCardView.swift */; };
+		181E67E62FA745F500DD5ADE /* LessonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67D62FA745F500DD5ADE /* LessonContent.swift */; };
+		181E67E72FA745F500DD5ADE /* LessonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67D32FA745F500DD5ADE /* LessonsController.swift */; };
+		181E67E82FA745F500DD5ADE /* LessonSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67DC2FA745F500DD5ADE /* LessonSectionView.swift */; };
+		181E67EF2FA7461A00DD5ADE /* InsightCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67EC2FA7461A00DD5ADE /* InsightCardView.swift */; };
+		181E67F02FA7461A00DD5ADE /* ContextInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67E92FA7461A00DD5ADE /* ContextInsight.swift */; };
+		181E67F12FA7461A00DD5ADE /* InsightPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67ED2FA7461A00DD5ADE /* InsightPanelView.swift */; };
+		181E67F22FA7461A00DD5ADE /* InsightProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67EA2FA7461A00DD5ADE /* InsightProvider.swift */; };
+		181E67F52FA7464900DD5ADE /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67F32FA7464900DD5ADE /* NavigationRouter.swift */; };
+		181E67F72FA746AF00DD5ADE /* 2FourierController+Insights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67F62FA746AF00DD5ADE /* 2FourierController+Insights.swift */; };
+		181E67F92FA746EE00DD5ADE /* FunctionTransformController+Insights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67F82FA746EE00DD5ADE /* FunctionTransformController+Insights.swift */; };
+		181E67FB2FA7470300DD5ADE /* ProjectileController+Insights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67FA2FA7470300DD5ADE /* ProjectileController+Insights.swift */; };
+		181E67FD2FA7471200DD5ADE /* SHMController+Insights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67FC2FA7471200DD5ADE /* SHMController+Insights.swift */; };
+		181E67FF2FA7472A00DD5ADE /* UnitCircleController+Insights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E67FE2FA7472A00DD5ADE /* UnitCircleController+Insights.swift */; };
+		181E68012FA7473900DD5ADE /* WaveController+Insights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E68002FA7473900DD5ADE /* WaveController+Insights.swift */; };
+		1C73132B14484B9FAD9022E2 /* FunctionTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DFE8DF3164F3589F4ABCF /* FunctionTransformView.swift */; };
+		28526A23DB504D11852E5112 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED0918FC164413957B46A2 /* HomeController.swift */; };
+		2F7EB8BD6297441FBF58BBF2 /* TopicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E59F279C48C4A829E37A64C /* TopicCard.swift */; };
+		31A0625627D94407A6B6633F /* SHMGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A8516ADB194A7FB0992851 /* SHMGraphView.swift */; };
+		3A338884359C477489E9FBB9 /* WaveControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965A182293F3447886C06DE0 /* WaveControlPanel.swift */; };
+		3BDC8D496AD3414C80CF5983 /* ValueBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EF3EBFF53949C88FC346CC /* ValueBadge.swift */; };
+		3CDC4A5127AF42E8A6CFCBC7 /* TrigState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353D6EAE010A4B998153BB4B /* TrigState.swift */; };
+		41E541A6144F4A7E87EA19A4 /* FourierState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6080525D3B4779A81DB21D /* FourierState.swift */; };
+		4C1484547620401CB5576865 /* GridPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE942A597401ABB543663 /* GridPainter.swift */; };
+		631A58495A4B4F32BC4D725D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4A2A254F7D4D8484BB2844 /* Assets.xcassets */; };
+		65031C8387FC41E584A9592E /* WaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB188B76CB714652823C0CD6 /* WaveController.swift */; };
+		67193EBBEE9A48F7AB722EE1 /* AppDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B245717CD39844E6B5FABC74 /* AppDimensions.swift */; };
+		6B0DF7CF587447A9949A0458 /* HarmonicSliderPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B808BC25F04A8EA17B1586 /* HarmonicSliderPanel.swift */; };
+		6D31C00D37694B88AEBA6871 /* SHMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FD6F312C874966B2668278 /* SHMView.swift */; };
+		75B9614770184335ADB238B1 /* ProjectileAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81E11226FE444F4B95CCC8E /* ProjectileAnalytics.swift */; };
+		76B27BD987C34F289FA5ADF7 /* TrigValuesPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22859232EFE7408DB4ED9487 /* TrigValuesPanel.swift */; };
+		79822DB12A4D4B819A9B7C7B /* SHMState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86DFF3F3D07491099D79F75 /* SHMState.swift */; };
+		7AEC7E376354479B865897FB /* FunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0579407AC59047C98D3CA4A5 /* FunctionType.swift */; };
+		7F1B242C718A48FA91CEED62 /* FourierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0D3A8B0F94182992837B8 /* FourierView.swift */; };
+		7F8D22EEEE874A10B2C1CF92 /* SectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BCC7ACC2D4132B69FD4F2 /* SectionCard.swift */; };
+		810ED2075DA04C58B285A665 /* ArrowPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64742FB2C98D4733863F5897 /* ArrowPainter.swift */; };
+		8918091FD9D742F28FD72757 /* SHMController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705700D5FAF84FE6B32B55C7 /* SHMController.swift */; };
+		8E82A93B45D745CDBF470042 /* GraphCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EF72A7816649D5A3AC947D /* GraphCanvasView.swift */; };
+		92BE31BE084F41B5B431F875 /* UnitCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E530E062AD4A4E5BBC52A6A8 /* UnitCircleView.swift */; };
+		939C1CF561954B4EA9CB2F0B /* FourierCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE1895737A43B59D82302C /* FourierCanvasView.swift */; };
+		99487669BBF4474E8E603190 /* VisioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D77B47A6F6F48C1A9B21AA7 /* VisioApp.swift */; };
+		997226719EED4CA1BC0FE07D /* UnitCircleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAD45CCFCFC4FA781C360D0 /* UnitCircleController.swift */; };
+		99881525DD424F72836932F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9112B15BA62E46CEAC02935F /* ContentView.swift */; };
+		9FDEB38D15C446DAA6E133EE /* ProjectileControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E6979BA95B4706B3A3B6A2 /* ProjectileControlPanel.swift */; };
+		A5E7B195FEEC46B0A13278F3 /* CoordinateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C6095C46347F0AFA0C423 /* CoordinateTransform.swift */; };
+		A606B5F79A004A98BCC1052F /* SpringMassCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6A524A38F46C2A7116147 /* SpringMassCanvasView.swift */; };
+		ADCACBC019974429AE56F025 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB39868EC2F41FABE3FA64D /* SliderRow.swift */; };
+		B33F93DB340041CA8BF41D8F /* FourierController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47584D2183464C58831D92D4 /* FourierController.swift */; };
+		B354A73EF6A04BF2A321BB94 /* WaveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC6865CF46348B1B7A8F17D /* WaveState.swift */; };
+		B42F6E922DBD4A488205020D /* PlayPauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE53A86CBE4A33886C5021 /* PlayPauseButton.swift */; };
+		C17207CC73CC417AB189DF1B /* ProjectileState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6C40837D84E0E993DE648 /* ProjectileState.swift */; };
+		C4769417436C4E0790FFF794 /* PendulumCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C75FFBB28340B5916E533C /* PendulumCanvasView.swift */; };
+		C674A86339ED48C0848375D0 /* FunctionTransformController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0DA120152456EBF2684F4 /* FunctionTransformController.swift */; };
+		DBF5C2AAA9F64DE5B093A9E1 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADF35F7351427E94D36ADF /* AppColors.swift */; };
+		E2241F69FD4A4897A723996F /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B88E9913F440990EC4FD0 /* Color+Extensions.swift */; };
+		E7AE5A77C3D94DBDA4BD5F64 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ABF10479604BF5950BE53F /* View+Extensions.swift */; };
+		E7B71171F15946F1A4485348 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F6B1431054F509ECA70AE /* ResetButton.swift */; };
+		EAC0093745AA4101BEC84AC7 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B340DA7C5C45492DBEFB16E7 /* Double+Extensions.swift */; };
+		EB2281C0D0684D509DA82B90 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80954A6F0F2E42879FC0EBA3 /* HomeView.swift */; };
+		ECA97A9D7C7D4802BA8F515D /* TransformParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF424EDA721B49479AA9A912 /* TransformParameters.swift */; };
+		EECE66C62506450BA1B769E8 /* ParameterSliderPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501DBCB6B9746A99C1358BB /* ParameterSliderPanel.swift */; };
+		F232E11C43B046599D9993A4 /* TargetShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50C7AF91EA4E0F992C3A1E /* TargetShape.swift */; };
+		F2468D01788B48A09F927FA5 /* WaveInterferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C418D3A35B164D26832E2AF8 /* WaveInterferenceView.swift */; };
+		FA7DE7D058E74CBBA4269EA5 /* ProjectileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D60275F9CD486196E9EADC /* ProjectileController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00A8516ADB194A7FB0992851 /* SHMGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMGraphView.swift; sourceTree = "<group>"; };
+		01FD6F312C874966B2668278 /* SHMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMView.swift; sourceTree = "<group>"; };
+		0501DBCB6B9746A99C1358BB /* ParameterSliderPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterSliderPanel.swift; sourceTree = "<group>"; };
+		0579407AC59047C98D3CA4A5 /* FunctionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionType.swift; sourceTree = "<group>"; };
+		073C6095C46347F0AFA0C423 /* CoordinateTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateTransform.swift; sourceTree = "<group>"; };
+		0E59F279C48C4A829E37A64C /* TopicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCard.swift; sourceTree = "<group>"; };
+		181E67D32FA745F500DD5ADE /* LessonsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsController.swift; sourceTree = "<group>"; };
+		181E67D52FA745F500DD5ADE /* FormulaBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaBlock.swift; sourceTree = "<group>"; };
+		181E67D62FA745F500DD5ADE /* LessonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonContent.swift; sourceTree = "<group>"; };
+		181E67D72FA745F500DD5ADE /* LessonSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSection.swift; sourceTree = "<group>"; };
+		181E67D82FA745F500DD5ADE /* TopicID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicID.swift; sourceTree = "<group>"; };
+		181E67DA2FA745F500DD5ADE /* LessonCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonCardView.swift; sourceTree = "<group>"; };
+		181E67DB2FA745F500DD5ADE /* LessonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailView.swift; sourceTree = "<group>"; };
+		181E67DC2FA745F500DD5ADE /* LessonSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSectionView.swift; sourceTree = "<group>"; };
+		181E67DD2FA745F500DD5ADE /* LessonsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsHomeView.swift; sourceTree = "<group>"; };
+		181E67E92FA7461A00DD5ADE /* ContextInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextInsight.swift; sourceTree = "<group>"; };
+		181E67EA2FA7461A00DD5ADE /* InsightProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightProvider.swift; sourceTree = "<group>"; };
+		181E67EC2FA7461A00DD5ADE /* InsightCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCardView.swift; sourceTree = "<group>"; };
+		181E67ED2FA7461A00DD5ADE /* InsightPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightPanelView.swift; sourceTree = "<group>"; };
+		181E67F32FA7464900DD5ADE /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		181E67F62FA746AF00DD5ADE /* 2FourierController+Insights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2FourierController+Insights.swift"; sourceTree = "<group>"; };
+		181E67F82FA746EE00DD5ADE /* FunctionTransformController+Insights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FunctionTransformController+Insights.swift"; sourceTree = "<group>"; };
+		181E67FA2FA7470300DD5ADE /* ProjectileController+Insights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProjectileController+Insights.swift"; sourceTree = "<group>"; };
+		181E67FC2FA7471200DD5ADE /* SHMController+Insights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SHMController+Insights.swift"; sourceTree = "<group>"; };
+		181E67FE2FA7472A00DD5ADE /* UnitCircleController+Insights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnitCircleController+Insights.swift"; sourceTree = "<group>"; };
+		181E68002FA7473900DD5ADE /* WaveController+Insights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveController+Insights.swift"; sourceTree = "<group>"; };
+		22859232EFE7408DB4ED9487 /* TrigValuesPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrigValuesPanel.swift; sourceTree = "<group>"; };
+		2BED0918FC164413957B46A2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		353D6EAE010A4B998153BB4B /* TrigState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrigState.swift; sourceTree = "<group>"; };
+		39A0D3A8B0F94182992837B8 /* FourierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierView.swift; sourceTree = "<group>"; };
+		3A50C7AF91EA4E0F992C3A1E /* TargetShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetShape.swift; sourceTree = "<group>"; };
+		47584D2183464C58831D92D4 /* FourierController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierController.swift; sourceTree = "<group>"; };
+		47EF72A7816649D5A3AC947D /* GraphCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCanvasView.swift; sourceTree = "<group>"; };
+		4B6080525D3B4779A81DB21D /* FourierState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierState.swift; sourceTree = "<group>"; };
+		4D4B88E9913F440990EC4FD0 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		4DA6A524A38F46C2A7116147 /* SpringMassCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringMassCanvasView.swift; sourceTree = "<group>"; };
+		531D7CBDE3DA470DAE77FA29 /* Visio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		572DFE8DF3164F3589F4ABCF /* FunctionTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTransformView.swift; sourceTree = "<group>"; };
+		5AB929B15BC94A9481A8D278 /* ProjectileCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileCanvasView.swift; sourceTree = "<group>"; };
+		5BB39868EC2F41FABE3FA64D /* SliderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRow.swift; sourceTree = "<group>"; };
+		5D77B47A6F6F48C1A9B21AA7 /* VisioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisioApp.swift; sourceTree = "<group>"; };
+		64742FB2C98D4733863F5897 /* ArrowPainter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowPainter.swift; sourceTree = "<group>"; };
+		705700D5FAF84FE6B32B55C7 /* SHMController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMController.swift; sourceTree = "<group>"; };
+		77EF3EBFF53949C88FC346CC /* ValueBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueBadge.swift; sourceTree = "<group>"; };
+		80954A6F0F2E42879FC0EBA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8AAD45CCFCFC4FA781C360D0 /* UnitCircleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCircleController.swift; sourceTree = "<group>"; };
+		8C4EB5AB85AB44DC972BF120 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		9112B15BA62E46CEAC02935F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		965A182293F3447886C06DE0 /* WaveControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveControlPanel.swift; sourceTree = "<group>"; };
+		96C75FFBB28340B5916E533C /* PendulumCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumCanvasView.swift; sourceTree = "<group>"; };
+		9C4A2A254F7D4D8484BB2844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDE1895737A43B59D82302C /* FourierCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierCanvasView.swift; sourceTree = "<group>"; };
+		AF4AE942A597401ABB543663 /* GridPainter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPainter.swift; sourceTree = "<group>"; };
+		B245717CD39844E6B5FABC74 /* AppDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDimensions.swift; sourceTree = "<group>"; };
+		B340DA7C5C45492DBEFB16E7 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		B4D60275F9CD486196E9EADC /* ProjectileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileController.swift; sourceTree = "<group>"; };
+		B5ABF10479604BF5950BE53F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		B81E11226FE444F4B95CCC8E /* ProjectileAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileAnalytics.swift; sourceTree = "<group>"; };
+		BA1824E8093346E6B2E29434 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C418D3A35B164D26832E2AF8 /* WaveInterferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveInterferenceView.swift; sourceTree = "<group>"; };
+		C4B808BC25F04A8EA17B1586 /* HarmonicSliderPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonicSliderPanel.swift; sourceTree = "<group>"; };
+		C5BE53A86CBE4A33886C5021 /* PlayPauseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseButton.swift; sourceTree = "<group>"; };
+		C7E6979BA95B4706B3A3B6A2 /* ProjectileControlPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileControlPanel.swift; sourceTree = "<group>"; };
+		CAADF35F7351427E94D36ADF /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		CF424EDA721B49479AA9A912 /* TransformParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformParameters.swift; sourceTree = "<group>"; };
+		D30AEE48AB1D490995657C60 /* WaveCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveCanvasView.swift; sourceTree = "<group>"; };
+		D52BCC7ACC2D4132B69FD4F2 /* SectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCard.swift; sourceTree = "<group>"; };
+		D86DFF3F3D07491099D79F75 /* SHMState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMState.swift; sourceTree = "<group>"; };
+		DB188B76CB714652823C0CD6 /* WaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveController.swift; sourceTree = "<group>"; };
+		E530E062AD4A4E5BBC52A6A8 /* UnitCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCircleView.swift; sourceTree = "<group>"; };
+		EAF6C40837D84E0E993DE648 /* ProjectileState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileState.swift; sourceTree = "<group>"; };
+		EBC6865CF46348B1B7A8F17D /* WaveState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveState.swift; sourceTree = "<group>"; };
+		ED2C53690E2B474790B66FC0 /* ProjectileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileView.swift; sourceTree = "<group>"; };
+		F9B0DA120152456EBF2684F4 /* FunctionTransformController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTransformController.swift; sourceTree = "<group>"; };
+		FA8F6B1431054F509ECA70AE /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC661569C044A1DA58E67C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09975A639502421EB666EFDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B6080525D3B4779A81DB21D /* FourierState.swift */,
+				3A50C7AF91EA4E0F992C3A1E /* TargetShape.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1194EB0905C6471EB0544DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				531D7CBDE3DA470DAE77FA29 /* Visio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181E67D42FA745F500DD5ADE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181E67D32FA745F500DD5ADE /* LessonsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		181E67D92FA745F500DD5ADE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				181E67D52FA745F500DD5ADE /* FormulaBlock.swift */,
+				181E67D62FA745F500DD5ADE /* LessonContent.swift */,
+				181E67D72FA745F500DD5ADE /* LessonSection.swift */,
+				181E67D82FA745F500DD5ADE /* TopicID.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		181E67DE2FA745F500DD5ADE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				181E67DA2FA745F500DD5ADE /* LessonCardView.swift */,
+				181E67DB2FA745F500DD5ADE /* LessonDetailView.swift */,
+				181E67DC2FA745F500DD5ADE /* LessonSectionView.swift */,
+				181E67DD2FA745F500DD5ADE /* LessonsHomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		181E67DF2FA745F500DD5ADE /* Lessons  */ = {
+			isa = PBXGroup;
+			children = (
+				181E67D42FA745F500DD5ADE /* Controllers */,
+				181E67D92FA745F500DD5ADE /* Models */,
+				181E67DE2FA745F500DD5ADE /* Views */,
+			);
+			path = "Lessons ";
+			sourceTree = "<group>";
+		};
+		181E67EB2FA7461A00DD5ADE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				181E67E92FA7461A00DD5ADE /* ContextInsight.swift */,
+				181E67EA2FA7461A00DD5ADE /* InsightProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		181E67EE2FA7461A00DD5ADE /* ContextInfo */ = {
+			isa = PBXGroup;
+			children = (
+				181E67EB2FA7461A00DD5ADE /* Models */,
+				181E67EC2FA7461A00DD5ADE /* InsightCardView.swift */,
+				181E67ED2FA7461A00DD5ADE /* InsightPanelView.swift */,
+			);
+			path = ContextInfo;
+			sourceTree = "<group>";
+		};
+		181E67F42FA7464900DD5ADE /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				181E67F32FA7464900DD5ADE /* NavigationRouter.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1A94A9535E5D41CDB5293176 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181E67FE2FA7472A00DD5ADE /* UnitCircleController+Insights.swift */,
+				8AAD45CCFCFC4FA781C360D0 /* UnitCircleController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1E50035E41524C07BBE2DC60 /* Projectile */ = {
+			isa = PBXGroup;
+			children = (
+				6EDA8601BD954456809EDEC4 /* Controllers */,
+				791D681FF79545D9A5ACEE93 /* Models */,
+				353A87F48820467A84147D04 /* Views */,
+			);
+			path = Projectile;
+			sourceTree = "<group>";
+		};
+		29C01A2E7BE840B6BEF5BDF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBC6865CF46348B1B7A8F17D /* WaveState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2AEEAC3C202B479084ADB879 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				181E67F42FA7464900DD5ADE /* Navigation */,
+				EB6D5D666AA240D68FED4CB2 /* Extensions */,
+				67AB24394D124352BE81E890 /* Theme */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		353A87F48820467A84147D04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AB929B15BC94A9481A8D278 /* ProjectileCanvasView.swift */,
+				C7E6979BA95B4706B3A3B6A2 /* ProjectileControlPanel.swift */,
+				ED2C53690E2B474790B66FC0 /* ProjectileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CB95FE748164C1B968A0427 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181E67F82FA746EE00DD5ADE /* FunctionTransformController+Insights.swift */,
+				F9B0DA120152456EBF2684F4 /* FunctionTransformController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		545ED9DE4F3340CE8376A685 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22859232EFE7408DB4ED9487 /* TrigValuesPanel.swift */,
+				E530E062AD4A4E5BBC52A6A8 /* UnitCircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58A1A93B3FD64817A0D09C33 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE53A86CBE4A33886C5021 /* PlayPauseButton.swift */,
+				FA8F6B1431054F509ECA70AE /* ResetButton.swift */,
+				D52BCC7ACC2D4132B69FD4F2 /* SectionCard.swift */,
+				5BB39868EC2F41FABE3FA64D /* SliderRow.swift */,
+				0E59F279C48C4A829E37A64C /* TopicCard.swift */,
+				77EF3EBFF53949C88FC346CC /* ValueBadge.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		67AB24394D124352BE81E890 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				CAADF35F7351427E94D36ADF /* AppColors.swift */,
+				B245717CD39844E6B5FABC74 /* AppDimensions.swift */,
+				8C4EB5AB85AB44DC972BF120 /* AppFonts.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		6EDA8601BD954456809EDEC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181E67FA2FA7470300DD5ADE /* ProjectileController+Insights.swift */,
+				B4D60275F9CD486196E9EADC /* ProjectileController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		733D64FDCFC7472086251C2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96C75FFBB28340B5916E533C /* PendulumCanvasView.swift */,
+				00A8516ADB194A7FB0992851 /* SHMGraphView.swift */,
+				01FD6F312C874966B2668278 /* SHMView.swift */,
+				4DA6A524A38F46C2A7116147 /* SpringMassCanvasView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7691B775B47A415386638A3B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				181E67EE2FA7461A00DD5ADE /* ContextInfo */,
+				FBCFE798FBBC474D85ACC29C /* Canvas */,
+				58A1A93B3FD64817A0D09C33 /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		791D681FF79545D9A5ACEE93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B81E11226FE444F4B95CCC8E /* ProjectileAnalytics.swift */,
+				EAF6C40837D84E0E993DE648 /* ProjectileState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7B81B127036C4345B77D7782 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181E68002FA7473900DD5ADE /* WaveController+Insights.swift */,
+				DB188B76CB714652823C0CD6 /* WaveController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7CF4FAC714E445DD8A9AAA57 /* SHM */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB7156836342A5980EA6D7 /* Controllers */,
+				90FC3FC5A48E438E96284B15 /* Models */,
+				733D64FDCFC7472086251C2B /* Views */,
+			);
+			path = SHM;
+			sourceTree = "<group>";
+		};
+		7FAEC7A4D9FD415CA97CA850 /* Trigonometry */ = {
+			isa = PBXGroup;
+			children = (
+				1A94A9535E5D41CDB5293176 /* Controllers */,
+				B716C038DE264C2FA809C1A8 /* Models */,
+				545ED9DE4F3340CE8376A685 /* Views */,
+			);
+			path = Trigonometry;
+			sourceTree = "<group>";
+		};
+		7FF2078282C8433B9EE3D612 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D30AEE48AB1D490995657C60 /* WaveCanvasView.swift */,
+				965A182293F3447886C06DE0 /* WaveControlPanel.swift */,
+				C418D3A35B164D26832E2AF8 /* WaveInterferenceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BCD624B5BCB460BB6F405E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0579407AC59047C98D3CA4A5 /* FunctionType.swift */,
+				CF424EDA721B49479AA9A912 /* TransformParameters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90FC3FC5A48E438E96284B15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D86DFF3F3D07491099D79F75 /* SHMState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		910583ACEA0D4C7798B00B7D = {
+			isa = PBXGroup;
+			children = (
+				E054517EDAD34432A011ED7E /* Visio */,
+				1194EB0905C6471EB0544DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C8F952DB7D4883A03FDFD6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				181E67DF2FA745F500DD5ADE /* Lessons  */,
+				E8A8E3484EE74AA696F0CE8C /* Fourier */,
+				DB58AA0C83C64F9E9985B9CE /* FunctionTransform */,
+				D59B71F59D154E0393B6BEC0 /* Home */,
+				1E50035E41524C07BBE2DC60 /* Projectile */,
+				7CF4FAC714E445DD8A9AAA57 /* SHM */,
+				7FAEC7A4D9FD415CA97CA850 /* Trigonometry */,
+				DED2789235554980A69AC817 /* WaveInterference */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9F02B8E3C1F649C5B6FDDA82 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181E67F62FA746AF00DD5ADE /* 2FourierController+Insights.swift */,
+				47584D2183464C58831D92D4 /* FourierController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F8626B7FA14449A9F307FC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABDE1895737A43B59D82302C /* FourierCanvasView.swift */,
+				39A0D3A8B0F94182992837B8 /* FourierView.swift */,
+				C4B808BC25F04A8EA17B1586 /* HarmonicSliderPanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0DB3C4CF9184F748EE2B5B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA1824E8093346E6B2E29434 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B716C038DE264C2FA809C1A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				353D6EAE010A4B998153BB4B /* TrigState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCBB7156836342A5980EA6D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181E67FC2FA7471200DD5ADE /* SHMController+Insights.swift */,
+				705700D5FAF84FE6B32B55C7 /* SHMController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3232A99028846FAA370EFFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				572DFE8DF3164F3589F4ABCF /* FunctionTransformView.swift */,
+				47EF72A7816649D5A3AC947D /* GraphCanvasView.swift */,
+				0501DBCB6B9746A99C1358BB /* ParameterSliderPanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D59B71F59D154E0393B6BEC0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2BED0918FC164413957B46A2 /* HomeController.swift */,
+				80954A6F0F2E42879FC0EBA3 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DB58AA0C83C64F9E9985B9CE /* FunctionTransform */ = {
+			isa = PBXGroup;
+			children = (
+				3CB95FE748164C1B968A0427 /* Controllers */,
+				8BCD624B5BCB460BB6F405E7 /* Models */,
+				D3232A99028846FAA370EFFD /* Views */,
+			);
+			path = FunctionTransform;
+			sourceTree = "<group>";
+		};
+		DED2789235554980A69AC817 /* WaveInterference */ = {
+			isa = PBXGroup;
+			children = (
+				7B81B127036C4345B77D7782 /* Controllers */,
+				29C01A2E7BE840B6BEF5BDF8 /* Models */,
+				7FF2078282C8433B9EE3D612 /* Views */,
+			);
+			path = WaveInterference;
+			sourceTree = "<group>";
+		};
+		E054517EDAD34432A011ED7E /* Visio */ = {
+			isa = PBXGroup;
+			children = (
+				2AEEAC3C202B479084ADB879 /* Core */,
+				92C8F952DB7D4883A03FDFD6 /* Modules */,
+				7691B775B47A415386638A3B /* Shared */,
+				9112B15BA62E46CEAC02935F /* ContentView.swift */,
+				5D77B47A6F6F48C1A9B21AA7 /* VisioApp.swift */,
+				9C4A2A254F7D4D8484BB2844 /* Assets.xcassets */,
+				A0DB3C4CF9184F748EE2B5B3 /* Preview Content */,
+			);
+			path = Visio;
+			sourceTree = "<group>";
+		};
+		E8A8E3484EE74AA696F0CE8C /* Fourier */ = {
+			isa = PBXGroup;
+			children = (
+				9F02B8E3C1F649C5B6FDDA82 /* Controllers */,
+				09975A639502421EB666EFDB /* Models */,
+				9F8626B7FA14449A9F307FC9 /* Views */,
+			);
+			path = Fourier;
+			sourceTree = "<group>";
+		};
+		EB6D5D666AA240D68FED4CB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B88E9913F440990EC4FD0 /* Color+Extensions.swift */,
+				B340DA7C5C45492DBEFB16E7 /* Double+Extensions.swift */,
+				B5ABF10479604BF5950BE53F /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBCFE798FBBC474D85ACC29C /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				64742FB2C98D4733863F5897 /* ArrowPainter.swift */,
+				073C6095C46347F0AFA0C423 /* CoordinateTransform.swift */,
+				AF4AE942A597401ABB543663 /* GridPainter.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2758A881704D4897A6199E60 /* Visio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBCEFADD5AE4908A4F4D1F5 /* Build configuration list for PBXNativeTarget "Visio" */;
+			buildPhases = (
+				51A5181DA34D4E49AB9E9326 /* Sources */,
+				8BC661569C044A1DA58E67C7 /* Frameworks */,
+				7298410ED1B940ADB1ED1D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Visio;
+			productName = Visio;
+			productReference = 531D7CBDE3DA470DAE77FA29 /* Visio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFAC2643F994513AC3F90EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 44144E914BEA4AE0961EB753 /* Build configuration list for PBXProject "Visio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 910583ACEA0D4C7798B00B7D;
+			productRefGroup = 1194EB0905C6471EB0544DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2758A881704D4897A6199E60 /* Visio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7298410ED1B940ADB1ED1D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631A58495A4B4F32BC4D725D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51A5181DA34D4E49AB9E9326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99881525DD424F72836932F2 /* ContentView.swift in Sources */,
+				E2241F69FD4A4897A723996F /* Color+Extensions.swift in Sources */,
+				EAC0093745AA4101BEC84AC7 /* Double+Extensions.swift in Sources */,
+				E7AE5A77C3D94DBDA4BD5F64 /* View+Extensions.swift in Sources */,
+				DBF5C2AAA9F64DE5B093A9E1 /* AppColors.swift in Sources */,
+				67193EBBEE9A48F7AB722EE1 /* AppDimensions.swift in Sources */,
+				05D2B8448526413C88D4E1BC /* AppFonts.swift in Sources */,
+				B33F93DB340041CA8BF41D8F /* FourierController.swift in Sources */,
+				41E541A6144F4A7E87EA19A4 /* FourierState.swift in Sources */,
+				F232E11C43B046599D9993A4 /* TargetShape.swift in Sources */,
+				939C1CF561954B4EA9CB2F0B /* FourierCanvasView.swift in Sources */,
+				7F1B242C718A48FA91CEED62 /* FourierView.swift in Sources */,
+				6B0DF7CF587447A9949A0458 /* HarmonicSliderPanel.swift in Sources */,
+				181E67FF2FA7472A00DD5ADE /* UnitCircleController+Insights.swift in Sources */,
+				C674A86339ED48C0848375D0 /* FunctionTransformController.swift in Sources */,
+				7AEC7E376354479B865897FB /* FunctionType.swift in Sources */,
+				ECA97A9D7C7D4802BA8F515D /* TransformParameters.swift in Sources */,
+				1C73132B14484B9FAD9022E2 /* FunctionTransformView.swift in Sources */,
+				8E82A93B45D745CDBF470042 /* GraphCanvasView.swift in Sources */,
+				181E68012FA7473900DD5ADE /* WaveController+Insights.swift in Sources */,
+				EECE66C62506450BA1B769E8 /* ParameterSliderPanel.swift in Sources */,
+				28526A23DB504D11852E5112 /* HomeController.swift in Sources */,
+				EB2281C0D0684D509DA82B90 /* HomeView.swift in Sources */,
+				FA7DE7D058E74CBBA4269EA5 /* ProjectileController.swift in Sources */,
+				75B9614770184335ADB238B1 /* ProjectileAnalytics.swift in Sources */,
+				C17207CC73CC417AB189DF1B /* ProjectileState.swift in Sources */,
+				14D0B2B8191148C4AF925CF4 /* ProjectileCanvasView.swift in Sources */,
+				9FDEB38D15C446DAA6E133EE /* ProjectileControlPanel.swift in Sources */,
+				0919057C1FE5469EB7E7B902 /* ProjectileView.swift in Sources */,
+				8918091FD9D742F28FD72757 /* SHMController.swift in Sources */,
+				181E67F72FA746AF00DD5ADE /* 2FourierController+Insights.swift in Sources */,
+				79822DB12A4D4B819A9B7C7B /* SHMState.swift in Sources */,
+				C4769417436C4E0790FFF794 /* PendulumCanvasView.swift in Sources */,
+				31A0625627D94407A6B6633F /* SHMGraphView.swift in Sources */,
+				181E67E02FA745F500DD5ADE /* LessonDetailView.swift in Sources */,
+				181E67E12FA745F500DD5ADE /* FormulaBlock.swift in Sources */,
+				181E67E22FA745F500DD5ADE /* TopicID.swift in Sources */,
+				181E67E32FA745F500DD5ADE /* LessonsHomeView.swift in Sources */,
+				181E67E42FA745F500DD5ADE /* LessonSection.swift in Sources */,
+				181E67E52FA745F500DD5ADE /* LessonCardView.swift in Sources */,
+				181E67E62FA745F500DD5ADE /* LessonContent.swift in Sources */,
+				181E67F52FA7464900DD5ADE /* NavigationRouter.swift in Sources */,
+				181E67E72FA745F500DD5ADE /* LessonsController.swift in Sources */,
+				181E67E82FA745F500DD5ADE /* LessonSectionView.swift in Sources */,
+				6D31C00D37694B88AEBA6871 /* SHMView.swift in Sources */,
+				A606B5F79A004A98BCC1052F /* SpringMassCanvasView.swift in Sources */,
+				997226719EED4CA1BC0FE07D /* UnitCircleController.swift in Sources */,
+				3CDC4A5127AF42E8A6CFCBC7 /* TrigState.swift in Sources */,
+				76B27BD987C34F289FA5ADF7 /* TrigValuesPanel.swift in Sources */,
+				92BE31BE084F41B5B431F875 /* UnitCircleView.swift in Sources */,
+				65031C8387FC41E584A9592E /* WaveController.swift in Sources */,
+				B354A73EF6A04BF2A321BB94 /* WaveState.swift in Sources */,
+				0B7F3B9519694EE286A727FC /* WaveCanvasView.swift in Sources */,
+				3A338884359C477489E9FBB9 /* WaveControlPanel.swift in Sources */,
+				F2468D01788B48A09F927FA5 /* WaveInterferenceView.swift in Sources */,
+				810ED2075DA04C58B285A665 /* ArrowPainter.swift in Sources */,
+				A5E7B195FEEC46B0A13278F3 /* CoordinateTransform.swift in Sources */,
+				181E67F92FA746EE00DD5ADE /* FunctionTransformController+Insights.swift in Sources */,
+				4C1484547620401CB5576865 /* GridPainter.swift in Sources */,
+				B42F6E922DBD4A488205020D /* PlayPauseButton.swift in Sources */,
+				E7B71171F15946F1A4485348 /* ResetButton.swift in Sources */,
+				7F8D22EEEE874A10B2C1CF92 /* SectionCard.swift in Sources */,
+				ADCACBC019974429AE56F025 /* SliderRow.swift in Sources */,
+				181E67FB2FA7470300DD5ADE /* ProjectileController+Insights.swift in Sources */,
+				181E67EF2FA7461A00DD5ADE /* InsightCardView.swift in Sources */,
+				181E67F02FA7461A00DD5ADE /* ContextInsight.swift in Sources */,
+				181E67F12FA7461A00DD5ADE /* InsightPanelView.swift in Sources */,
+				181E67FD2FA7471200DD5ADE /* SHMController+Insights.swift in Sources */,
+				181E67F22FA7461A00DD5ADE /* InsightProvider.swift in Sources */,
+				2F7EB8BD6297441FBF58BBF2 /* TopicCard.swift in Sources */,
+				3BDC8D496AD3414C80CF5983 /* ValueBadge.swift in Sources */,
+				99487669BBF4474E8E603190 /* VisioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5470D573F2A0404AAAFAC427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D3EA45F3B5B4E43980DE288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Visio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visio.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0184EC43AFA494BB1E3148F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Visio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.visio.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0A2990E24C4433C9BA200C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44144E914BEA4AE0961EB753 /* Build configuration list for PBXProject "Visio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5470D573F2A0404AAAFAC427 /* Debug */,
+				F0A2990E24C4433C9BA200C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBCEFADD5AE4908A4F4D1F5 /* Build configuration list for PBXNativeTarget "Visio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3EA45F3B5B4E43980DE288 /* Debug */,
+				E0184EC43AFA494BB1E3148F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAFAC2643F994513AC3F90EB /* Project object */;
+}
